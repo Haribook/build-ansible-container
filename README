@@ -1,0 +1,3 @@
+Create a dockr conatiner with ansible installed
+docker build --tag=ansible .
+docker run -it ansible
