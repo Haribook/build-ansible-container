@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-RUN apt-get update && apt-get upgrade
+RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install make \
                        vim \
                        python-setuptools \
